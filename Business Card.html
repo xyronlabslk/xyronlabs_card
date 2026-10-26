@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#030303">
-    <title>Inuka Sanjula | Inuka Tech</title>
+    <title>Inuka Sanjula | Xyron Labs</title>
     
     <link rel="manifest" href="manifest.json">
     
@@ -80,7 +80,7 @@
         <div class="space-y-1 mb-10">
             <div class="term-text">> [ARCHITECT_SYSTEM] initializing...</div>
             <div class="term-text">> handshake secured.</div>
-            <div class="term-text">> decrypting payload: inuka_tech_v4.bin</div>
+            <div class="term-text">> decrypting payload: xyron_labs_v4.bin</div>
             <div class="term-text">> access granted.</div>
         </div>
     </div>
@@ -101,7 +101,7 @@
 
         <div class="text-center mb-8">
             <h1 class="text-3xl font-extrabold tracking-tight">Inuka Sanjula</h1>
-            <p class="text-red-500 font-bold text-[10px] tracking-[0.3em] uppercase mt-1 mb-4">Founder @ Inuka Tech</p>
+            <p class="text-red-500 font-bold text-[10px] tracking-[0.3em] uppercase mt-1 mb-4">Founder @ Xyron Labs</p>
             <div class="flex flex-wrap justify-center gap-2">
                 <span class="px-3 py-1 bg-black/60 text-zinc-300 text-[9px] font-bold rounded-full border border-zinc-700 backdrop-blur-md shadow-lg">SOFTWARE DEVELOPER</span>
                 <span class="px-3 py-1 bg-black/60 text-zinc-300 text-[9px] font-bold rounded-full border border-zinc-700 backdrop-blur-md shadow-lg">GRAPHIC DESIGNER</span>
@@ -118,7 +118,7 @@
                 <a href="https://wa.me/94717954374" class="flex items-center justify-center gap-2 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-red-500/50 hover:bg-white/10 transition-all font-bold text-xs uppercase text-zinc-300 hover:text-white">
                     <i data-lucide="message-square" class="w-4 h-4"></i> Chat
                 </a>
-                <a href="https://inukatechyt.github.io/inuka_tech/" class="flex items-center justify-center gap-2 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-red-500/50 hover:bg-white/10 transition-all font-bold text-xs uppercase text-zinc-300 hover:text-white">
+                <a href="https://xyronlabslk.github.io/xyron_labs/" class="flex items-center justify-center gap-2 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-red-500/50 hover:bg-white/10 transition-all font-bold text-xs uppercase text-zinc-300 hover:text-white">
                     <i data-lucide="globe" class="w-4 h-4"></i> Web
                 </a>
             </div>
@@ -129,7 +129,7 @@
         </div>
 
         <div class="mt-8 pt-6 border-t border-white/5 flex justify-center space-x-8 text-zinc-500">
-            <a href="https://www.facebook.com/InukaSanjulaTech" target="_blank" class="hover:text-blue-500 transition-colors"><i data-lucide="facebook" class="w-6 h-6"></i></a>
+            <a href="https://www.facebook.com/M.InukaSanjula" target="_blank" class="hover:text-blue-500 transition-colors"><i data-lucide="facebook" class="w-6 h-6"></i></a>
             
             <a href="https://www.tiktok.com/@inuka_sanjula" target="_blank" class="hover:text-white transition-colors">
                 <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12.525.023c1.792 0 3.568.01 5.342.012h.203c.11.053.15.14.156.248.025 1.556.035 3.111.08 4.665.012.443.203.744.593.94 1.144.58 1.895 1.488 2.27 2.748.067.228.093.468.14.704v5.337c-.012.35-.022.7-.076 1.047a5.523 5.523 0 0 1-5.32 4.622c-.225.014-.45.01-.676.01h-9.53a5.523 5.523 0 0 1-5.412-4.524 6.746 6.746 0 0 1-.06-1.125V8.98a5.523 5.523 0 0 1 4.542-5.4c.18-.035.362-.06.545-.07l.073-.01v2.368c-.145.013-.284.025-.424.043-1.896.252-3.238 1.574-3.418 3.475-.02.21-.023.425-.023.637v5.385c.01.2.02.4.053.6a3.52 3.52 0 0 0 3.435 2.924c.084.004.167.004.25.004h9.54a3.522 3.522 0 0 0 3.47-3.045 4.34 4.34 0 0 0 .04-.57v-5.26c-.01-.2-.02-.4-.052-.6a3.522 3.522 0 0 0-3.327-2.923 1.505 1.505 0 0 1-.41-.03c-.2-.053-.33-.195-.333-.404-.01-1.455-.004-2.91-.004-4.366V.024z"/></svg>
@@ -167,14 +167,14 @@
         // 3. Native Share
         async function nativeShare() {
             if (navigator.share) {
-                try { await navigator.share({ title: 'Inuka Sanjula | Inuka Tech', text: 'Connect with Inuka Sanjula - Software Developer & Graphic Designer', url: window.location.href }); } 
+                try { await navigator.share({ title: 'Inuka Sanjula | Xyron Labs', text: 'Connect with Inuka Sanjula - Software Developer & Graphic Designer', url: window.location.href }); } 
                 catch (err) { console.log('Share dismissed'); }
             } else { alert("Share link: " + window.location.href); }
         }
 
         // 4. Corrected VCF Download
         function downloadVCF() {
-            const vCard = `BEGIN:VCARD\nVERSION:3.0\nFN:Inuka Sanjula\nORG:Inuka Tech\nTITLE:Software Developer & Graphic Designer\nTEL;TYPE=CELL:+94717954374\nURL:https://inukatechyt.github.io/inuka_tech/\nEND:VCARD`;
+            const vCard = `BEGIN:VCARD\nVERSION:3.0\nFN:Inuka Sanjula\nORG:Xyron Labs\nTITLE:Software Developer & Graphic Designer\nTEL;TYPE=CELL:+94717954374\nURL:https://xyronlabslk.github.io/xyron_labs/\nEND:VCARD`;
             const blob = new Blob([vCard], { type: 'text/vcard' });
             const url = window.URL.createObjectURL(blob);
             const a = document.createElement('a');
